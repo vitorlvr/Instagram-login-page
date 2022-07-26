@@ -4,26 +4,48 @@
     padding: 0;
     max-width: 700px;
     max-height: 1080px;
-    display: inline;
+    box-sizing: border-box;
+    display: flex;
 }
 
 .container{
-    display: inline;
-    background-color: black;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .celular {
-    background-color: gray;
-    width: 30%;
+    width: 65%;
+    height: 90%;
+    margin-left: 200px;
 }
 
 .login{
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
     background-color: #ffff;
-    width: 30%;
-    height: 100%;
+    width: 50%;
+    height: 395px;
+    border: 1px solid #dbdbdb;
+    padding: 45px;
+    margin: 45px;
 }
 
 input[type=text]{
     text-align: left;
-    border-width: 1px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 10px 55px;
+    margin: 3px;
+    text-align: left;
+}
+
+input[type=submit]{
+    background-color: #0095f6;
+    color: #f2faff;
+    border-radius: 3px;
+    padding: 5px 120px;
+    margin: 3px;
+    border: 0;
+    cursor: pointer;
 }
