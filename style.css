@@ -31,6 +31,10 @@
     margin: 45px;
 }
 
+.logo{
+    margin-bottom: 25px;
+}
+
 input[type=text]{
     text-align: left;
     border: 1px solid #dbdbdb;
@@ -44,8 +48,48 @@ input[type=submit]{
     background-color: #0095f6;
     color: #f2faff;
     border-radius: 3px;
-    padding: 5px 120px;
-    margin: 3px;
+    padding: 7px 120px;
+    margin: 7px;
     border: 0;
     cursor: pointer;
+}
+
+hr{
+    width: 250px;
+    height: 1px;
+    margin: 20px;
+    background-color: #dbdbdb;
+}
+
+.ou{
+    background-color: #ffff;
+    margin-top: -35px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #3b5998;
+    margin: 20px;
+    background-color: #ffff;
+}
+
+span{
+    background-color: #ffff;
+}
+
+.cadastro{
+    margin: 40px 0px;
+    padding: 0px 120px;
+    background-color: #ffff;
+    border: 1px #dbdbdb solid;
+}
+
+.mobile{
+    width: -100px;
+    height: 40px;
+    padding: 0 -100px;
+    margin: 0 -100px;
 }
